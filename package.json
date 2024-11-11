@@ -10,9 +10,8 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "framer-motion": "^11.11.11",
+    "firebase": "^11.0.1",
     "gsap": "^3.12.5",
-    "lenis": "^1.1.16",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
