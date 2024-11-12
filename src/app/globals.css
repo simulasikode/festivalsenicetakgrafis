@@ -1,7 +1,14 @@
-html,
-body {
+html.lenis,
+body.lenis {
   max-width: 100vw;
-  overflow-x: hidden;
+  color: #e7bd74;
+}
+lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+lenis.lenis-smooth {
+  overscroll-behavior: contain;
 }
 
 body {

@@ -1,0 +1,24 @@
+$small: 320px;
+$medium: 768px;
+
+.main {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  margin-top: 180px;
+  .title {
+    margin-top: 12px;
+    font-size: 48px;
+    font-family: basteleur;
+    @media screen and (max-width: $small) {
+      font-size: 32px;
+    }
+    @media screen and (max-width: $medium) {
+      font-size: 36px;
+    }
+  }
+  .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

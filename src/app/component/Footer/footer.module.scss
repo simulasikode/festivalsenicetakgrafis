@@ -1,0 +1,22 @@
+.footer {
+  bottom: 0;
+  display: fixed;
+  padding: 32px;
+  display: flex;
+  background-color: #951a29;
+  justify-content: space-between;
+  justify-items: center;
+  .organize {
+    font-size: 14px;
+  }
+  .sponsor {
+    font-size: 14px;
+  }
+  .logo {
+    gap: 18px;
+  }
+  img {
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+}

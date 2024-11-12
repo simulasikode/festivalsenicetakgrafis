@@ -10,7 +10,10 @@
     "release": "standard-version"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@studio-freight/react-lenis": "^0.0.47",
     "firebase": "^11.0.1",
+    "framer-motion": "^11.11.11",
     "gsap": "^3.12.5",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",

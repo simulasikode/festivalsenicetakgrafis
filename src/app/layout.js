@@ -1,3 +1,6 @@
+import Footer from "./component/Footer/Index";
+import Nav from "./component/Nav";
+import SmoothScrolling from "./component/SmoothScrolling";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <SmoothScrolling>
+          <Nav />
+          {children}
+          <Footer />
+        </SmoothScrolling>
+      </body>
     </html>
   );
 }

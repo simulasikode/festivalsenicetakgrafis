@@ -1,0 +1,23 @@
+.nav {
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  padding: 32px;
+  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  color: #e7bd74;
+
+  .logo {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: 24px;
+
+    div {
+      display: flex;
+      gap: 4px;
+    }
+  }
+}
