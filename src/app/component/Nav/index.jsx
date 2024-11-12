@@ -16,7 +16,7 @@ export default function Nav() {
             target="_blank"
           >
             <Image
-              src={"instagram.svg"}
+              src={"Instagram.svg"}
               alt="logo instagram"
               width={36}
               height={36}
