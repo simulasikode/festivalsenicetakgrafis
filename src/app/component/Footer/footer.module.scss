@@ -1,22 +1,37 @@
+$small: 320px;
+$medium: 768px;
+
 .footer {
   bottom: 0;
-  display: fixed;
   padding: 32px;
   display: flex;
   background-color: #951a29;
   justify-content: space-between;
-  justify-items: center;
+  @media screen and (width: $small) {
+    display: grid;
+  }
+  @media screen and (width: $medium) {
+    display: flex;
+  }
+
   .organize {
+    padding: 2px;
     font-size: 14px;
   }
   .sponsor {
     font-size: 14px;
+    @media screen and (width: $small) {
+      display: grid;
+      padding-top: 16px;
+    }
+    @media screen and (width: $medium) {
+      display: flex;
+    }
   }
   .logo {
-    gap: 18px;
-  }
-  img {
-    margin-top: 6px;
-    margin-right: 10px;
+    img {
+      margin-top: 6px;
+      margin-right: 18px;
+    }
   }
 }

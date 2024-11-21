@@ -1,23 +1,69 @@
+$small: 320px;
+$medium: 768px;
+
 .nav {
   top: 0;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
   z-index: 1;
   padding: 32px;
   overflow: hidden;
   width: 100vw;
-  display: flex;
   color: #e7bd74;
-
   .logo {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    font-size: 24px;
-
-    div {
+    align-items: center;
+    @media screen and (max-width: $small) {
+      font-size: 10px;
+    }
+    @media screen and (max-width: $medium) {
+      font-size: 18px;
+    }
+  }
+  .instagram {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $small) {
       display: flex;
-      gap: 4px;
+      height: 18vh;
+    }
+  }
+
+  .menu {
+    display: flex;
+    ul {
+      display: flex;
+      padding: 0 16px;
+      li {
+        list-style: none;
+        margin: 0 8px;
+        button {
+          color: #e7bd74;
+          display: inline-block;
+          border: none;
+          background: none;
+          text-align: center;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          :hover {
+            color: black;
+            border: 1px solid black;
+            border-radius: 1rem;
+            padding: 1px 16px;
+            transition: all 0.2s ease;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: $small) {
+      display: none;
     }
   }
 }
