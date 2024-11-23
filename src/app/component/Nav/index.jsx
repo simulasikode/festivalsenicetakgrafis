@@ -19,7 +19,7 @@ export default function Nav() {
           </li>
           <li>
             <button type="button">
-              <Link href="/">Program</Link>
+              <Link href="program">Program</Link>
             </button>
           </li>
         </ul>
