@@ -3,17 +3,22 @@
   padding: 32px;
   padding-bottom: 180px;
   padding-top: 180px;
-  background: #4b5592;
+  background: #cbcfe3;
   h1 {
     font-size: 84px;
     font-family: basteleur;
   }
   .table {
     margin-top: 48px;
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+    :hover {
+      color: #cd2c3d;
+    }
+
     p {
-      border-top: 1px solid #989ec7;
+      border-top: 1px solid #323861;
       padding-top: 20px;
       padding-bottom: 20px;
     }

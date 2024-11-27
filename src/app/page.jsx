@@ -1,10 +1,22 @@
 "use client";
+import Festival from "./component/festival";
 import Gambul from "./component/Gambul";
 import Intro from "./component/intro";
+import Profile from "./component/profile";
 import styles from "./page.module.scss";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import Tim from "./component/tim";
 
 export default function Home() {
+  useEffect(() => {
+    // Dynamically load the Google Translate script after the page loads
+    const script = document.createElement("script");
+    script.src =
+      "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
   return (
     <div>
       <div className={styles.page}>
@@ -25,6 +37,9 @@ export default function Home() {
           <Intro />
         </motion.div>
       </div>
+      <Profile />
+      <Festival />
+      <Tim />
       <Gambul />
     </div>
   );

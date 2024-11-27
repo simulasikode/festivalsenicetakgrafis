@@ -1,0 +1,29 @@
+.profile {
+  padding: 0 32px;
+  margin-top: 44px;
+  position: relative;
+  h1 {
+    color: #cd2c3d;
+    font-size: 32px;
+    font-family: basteleur;
+    margin-bottom: 40px;
+  }
+  .grid {
+    gap: 40px;
+    display: grid;
+    grid-template: 280px / auto auto auto;
+    .festival {
+      padding: 18px 0;
+      p {
+        margin-top: 16px;
+      }
+    }
+    .krack {
+      padding: 18px 0;
+
+      p {
+        margin-top: 16px;
+      }
+    }
+  }
+}

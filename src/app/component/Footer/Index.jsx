@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.organize}>
         <p>Organize by</p>
         <span>
-          <Image src={"logo4.svg"} alt="festival logo" height={40} width={57} />
+          <Image src={"logo4.svg"} alt="krack logo" height={40} width={57} />
         </span>
       </div>
       <div className={styles.sponsor}>
@@ -18,8 +18,8 @@ export default function Footer() {
             <Image
               src={"logo1.svg"}
               alt="festival logo"
-              height={32}
-              width={32}
+              height={38}
+              width={38}
             />
             <Image
               src={"logo2.svg"}

@@ -5,7 +5,8 @@ $medium: 768px;
   bottom: 0;
   padding: 32px;
   display: flex;
-  background-color: #951a29;
+  color: white;
+  background-color: #000000;
   justify-content: space-between;
   @media screen and (width: $small) {
     display: grid;
@@ -15,11 +16,13 @@ $medium: 768px;
   }
 
   .organize {
-    padding: 2px;
-    font-size: 14px;
+    font-size: 16px;
+    img {
+      margin-top: 16px;
+    }
   }
   .sponsor {
-    font-size: 14px;
+    font-size: 16px;
     @media screen and (width: $small) {
       display: grid;
       padding-top: 16px;
@@ -30,7 +33,7 @@ $medium: 768px;
   }
   .logo {
     img {
-      margin-top: 6px;
+      margin-top: 16px;
       margin-right: 18px;
     }
   }

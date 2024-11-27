@@ -7,7 +7,7 @@ export default function Nav() {
     <div className={styles.nav}>
       <div className={styles.logo}>
         <Link href="/">
-          <Image src={"Logo.svg"} alt="Logo Festival" width={32} height={32} />
+          <Image src={"Logo.svg"} alt="Logo Festival" width={48} height={48} />
         </Link>
       </div>
       <div className={styles.menu}>
@@ -32,8 +32,8 @@ export default function Nav() {
           <Image
             src={"Instagram.svg"}
             alt="logo instagram"
-            width={34}
-            height={34}
+            width={48}
+            height={48}
           />
         </Link>
       </div>

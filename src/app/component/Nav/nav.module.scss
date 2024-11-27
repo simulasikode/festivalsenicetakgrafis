@@ -12,7 +12,7 @@ $medium: 768px;
   padding: 32px;
   overflow: hidden;
   width: 100vw;
-  color: #e7bd74;
+
   .logo {
     width: 100vw;
     display: flex;
@@ -43,14 +43,14 @@ $medium: 768px;
         list-style: none;
         margin: 0 8px;
         button {
-          color: #e7bd74;
+          color: #272525;
           display: inline-block;
           border: none;
           background: none;
           text-align: center;
           text-decoration: none;
-          font-size: 20px;
-          font-weight: 500;
+          font-size: 24px;
+          font-weight: 300;
           :hover {
             color: black;
             border: 1px solid black;

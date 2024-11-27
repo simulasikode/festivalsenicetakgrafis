@@ -1,17 +1,26 @@
 .tentang {
-  height: auto;
+  height: 100vh;
   padding: 32px;
   padding-bottom: 180px;
   padding-top: 180px;
-  background-color: #cd2c3d;
+  h1 {
+    font-size: 58px;
+    font-family: basteleur;
+  }
   .container {
     font-size: 18px;
     margin-top: 32px;
-    max-width: 860px;
     line-height: 1.24;
-    white-space: wrap;
+    cursor: pointer;
+    :hover {
+      color: #cd2c3d;
+    }
     p {
-      margin: 15px 0;
+      border-top: 1px solid black;
+      font-size: 32px;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
   }
 }

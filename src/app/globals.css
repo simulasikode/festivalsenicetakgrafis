@@ -1,7 +1,6 @@
 html.lenis,
 body.lenis {
   max-width: 100vw;
-  color: #e7bd74;
 }
 lenis.lenis-smooth {
   scroll-behavior: auto !important;

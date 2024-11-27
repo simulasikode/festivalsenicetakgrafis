@@ -11,7 +11,7 @@ $medium: 768px;
   }
 
   span {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     @media screen and (max-width: $small) {
       font-size: 18px;
@@ -21,8 +21,8 @@ $medium: 768px;
     }
   }
   .title {
-    margin-top: 12px;
-    font-size: 58px;
+    margin-top: 16px;
+    font-size: 48px;
     font-family: basteleur;
 
     @media screen and (max-width: $small) {
@@ -35,8 +35,8 @@ $medium: 768px;
   .bodytext {
     font-size: 20px;
     font-weight: 500;
-    margin-top: 32px;
-    max-width: 870px;
+    margin-top: 24px;
+    max-width: 672px;
     @media screen and (max-width: $small) {
       font-size: 16px;
       margin-top: 16px;
