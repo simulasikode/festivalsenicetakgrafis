@@ -1,0 +1,38 @@
+.tim {
+  position: relative;
+  padding: 48px;
+  height: 100vh;
+  margin-top: 180px;
+  h1 {
+    font-size: 38px;
+    font-weight: 600px;
+  }
+  span {
+    color: #cd2c3d;
+    display: flex;
+    font-size: 48px;
+    font-family: basteleur;
+    text-wrap: wrap;
+    margin-top: 8px;
+  }
+  .border {
+    top: 0;
+    left: 0;
+    height: 1px;
+    background-color: #b2b2b2;
+    transform-origin: left;
+    margin-top: 32px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    .heading {
+      grid-column: 1 / span 8;
+    }
+  }
+  .list {
+    margin-top: 60px;
+    font-size: 18px;
+  }
+}

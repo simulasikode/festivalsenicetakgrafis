@@ -1,10 +1,53 @@
 .tim {
   position: relative;
-  padding: 32px;
-  margin-bottom: 40px;
+  display: grid;
+  padding: 0px 48px;
+  margin-bottom: 64px;
   h1 {
     font-size: 32px;
     font-family: basteleur;
     color: #cd2c3d;
+    margin-bottom: 40px;
+  }
+}
+.border {
+  top: 0;
+  left: 0;
+  height: 1px;
+  background-color: #b2b2b2;
+  transform-origin: left;
+  margin-bottom: 16px;
+}
+.container {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  margin-bottom: 16px;
+  .grid {
+    grid-column: 1 / span 11;
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    span {
+      margin-top: 2px;
+      font-size: 20px;
+    }
+  }
+  .pointer {
+    grid-column: 12 / span 1;
+    grid-column: end;
+  }
+}
+.more {
+  display: flex;
+  align-items: center;
+  gap: 4px 8px;
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  :hover {
+    color: #b2b2b2;
   }
 }

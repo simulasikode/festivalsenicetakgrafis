@@ -1,24 +1,48 @@
 .festival {
   position: relative;
-  padding: 32px;
+  display: grid;
+  padding: 48px;
   margin-bottom: 40px;
+
   h1 {
     font-size: 32px;
     font-family: basteleur;
     color: #cd2c3d;
     margin-bottom: 40px;
+    margin-top: 68px;
   }
 }
+.border {
+  top: 0;
+  left: 0;
+  height: 1px;
+  background-color: #b2b2b2;
+  transform-origin: left;
+  margin-bottom: 16px;
+}
 .container {
-  margin-top: 32px;
-
-  .table {
-    font-size: 50px;
-    font-weight: 300;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  .grid {
+    padding-bottom: 32px;
+    grid-column: 1 / span 6;
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    p {
+      margin-top: 2px;
+      font-size: 18px;
+    }
+  }
+  .date {
+    margin-top: 32px;
+    grid-column: 7 / span 6;
+    grid-column: end;
     span {
-      display: flex;
-      padding: 32px;
-      border-top: 1px solid black;
+      font-size: 20px;
+      padding: 2px 4px;
     }
   }
 }

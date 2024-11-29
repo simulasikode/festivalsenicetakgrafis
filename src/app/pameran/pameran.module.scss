@@ -1,39 +1,45 @@
-$small: 320px;
-$medium: 768px;
-
 .pameran {
-  height: 100vh;
-  padding: 32px;
+  display: grid;
+  padding: 0px 48px;
   padding-top: 180px;
-  font-size: 18px;
-  margin-bottom: 180px;
-
+  margin-bottom: 300px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   .heading {
-    font-size: 84px;
-    font-family: basteleur;
-  }
-  .list {
-    color: black;
-    margin-top: 32px;
-    cursor: pointer;
-    :hover {
+    grid-column: 1 / span 6;
+    h1 {
+      font-size: 48px;
+      font-family: basteleur;
+      padding-bottom: 32px;
       color: #cd2c3d;
     }
+  }
+}
+.border {
+  top: 0;
+  left: 0;
+  height: 1px;
+  background-color: #b2b2b2;
+  margin-top: 16px;
+}
 
-    p {
-      margin-top: 32px;
-      padding-top: 32px;
-      border-top: 1px solid black;
-      font-size: 32px;
-      font-family: basteleur;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      span {
-        font-size: 18px;
-        font-weight: 600;
-      }
-    }
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  cursor: pointer;
+  :hover {
+    color: #cd2c3d;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
   }
 }

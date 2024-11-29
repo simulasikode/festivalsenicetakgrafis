@@ -5,48 +5,30 @@ $medium: 768px;
   position: relative;
   overflow: hidden;
   height: 100vh;
-  margin-top: 180px;
-  @media screen and (max-width: $small) {
-    margin-top: 64px;
-  }
-
-  span {
-    font-size: 24px;
-    font-weight: 700;
-    @media screen and (max-width: $small) {
-      font-size: 18px;
+  .hero {
+    padding: 6px 48px;
+    padding-top: 140px;
+    span {
+      font-size: 28px;
+      font-weight: 700;
     }
-    @media screen and (max-width: $medium) {
-      font-size: 18px;
-    }
-  }
-  .title {
-    margin-top: 16px;
-    font-size: 48px;
-    font-family: basteleur;
-
-    @media screen and (max-width: $small) {
-      font-size: 18px;
-    }
-    @media screen and (max-width: $medium) {
-      font-size: 24px;
+    .title {
+      margin-top: 8px;
+      font-size: 48px;
+      font-family: basteleur;
+      color: #cd2c3d;
     }
   }
-  .bodytext {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 24px;
-    max-width: 672px;
-    @media screen and (max-width: $small) {
-      font-size: 16px;
-      margin-top: 16px;
-      margin-right: auto;
-    }
-
-    @media screen and (max-width: $medium) {
-      font-size: 16px;
-      margin-top: 16px;
-      margin-right: auto;
-    }
+}
+.paragraf {
+  padding: 6px 48px;
+  font-size: 18px;
+  max-width: 762px;
+}
+.continue {
+  padding: 24px 0px;
+  font-weight: 600;
+  :hover {
+    color: gray;
   }
 }

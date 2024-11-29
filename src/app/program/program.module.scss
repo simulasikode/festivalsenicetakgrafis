@@ -1,26 +1,57 @@
 .program {
-  height: 100vh;
-  padding: 32px;
-  padding-bottom: 180px;
+  position: relative;
+  display: grid;
+  max-height: 100vh;
+  padding: 0px 48px;
   padding-top: 180px;
-  background: #cbcfe3;
-  h1 {
-    font-size: 84px;
-    font-family: basteleur;
+  margin-bottom: 120px;
+  .head {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 8px 16px;
+    h1 {
+      font-size: 48px;
+      font-family: basteleur;
+      color: #cd2c3d;
+    }
+    p {
+      margin-top: 32px;
+      font-size: 16px;
+    }
   }
-  .table {
-    margin-top: 48px;
-    font-size: 32px;
-    font-weight: 700;
-    cursor: pointer;
+}
+.border {
+  top: 0;
+  left: 0;
+  height: 1px;
+  background-color: #b2b2b2;
+  transform-origin: left;
+}
+.container {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  .grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-column: 1 / span 6;
     :hover {
       color: #cd2c3d;
     }
 
-    p {
-      border-top: 1px solid #323861;
-      padding-top: 20px;
-      padding-bottom: 20px;
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .date {
+    margin-top: 32px;
+    grid-column: 7 / span 6;
+    grid-column: end;
+
+    span {
+      font-size: 18px;
+      padding: 2px 4px;
     }
   }
 }

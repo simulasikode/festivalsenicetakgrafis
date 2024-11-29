@@ -1,5 +1,10 @@
 .gambul {
+  position: relative;
   padding: 32px;
-  height: 100vh;
-  font-family: basteleur;
+  h1 {
+    font-size: 32px;
+    font-family: basteleur;
+    color: #cd2c3d;
+    margin-bottom: 40px;
+  }
 }
