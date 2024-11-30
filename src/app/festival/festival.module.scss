@@ -1,7 +1,7 @@
 .festival {
   position: relative;
   padding: 48px;
-  height: 100vh;
+  min-height: 100vh;
   margin-top: 180px;
   h1 {
     font-size: 38px;
@@ -34,7 +34,7 @@
   .bodytext {
     margin-top: 60px;
     font-size: 18px;
-    max-width: 762px;
+    max-width: 80%;
   }
   .btn {
     font-size: 18px;

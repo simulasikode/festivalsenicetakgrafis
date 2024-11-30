@@ -3,6 +3,7 @@ $medium: 768px;
 
 .header {
   width: 100vw;
+  position: relative;
   .nav {
     top: 0;
     z-index: 1;
@@ -13,7 +14,6 @@ $medium: 768px;
     justify-content: space-between;
     align-items: center;
     color: var(--font-standard) !important;
-    mix-blend-mode: difference;
 
     .logo {
       display: flex;
@@ -35,7 +35,6 @@ $medium: 768px;
         li {
           list-style: none;
           button {
-            mix-blend-mode: difference;
             display: inline-block;
             border: none;
             background: none;
@@ -44,7 +43,7 @@ $medium: 768px;
             font-size: 24px;
             font-weight: 300;
             :hover {
-              color: invert($color: #000000);
+              color: #f9f9f9;
               border: 1px solid #67161f;
               background-color: #cd2c3d;
               border-radius: 1rem;

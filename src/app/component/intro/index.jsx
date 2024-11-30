@@ -1,10 +1,14 @@
 "use client";
+import Background from "../hero";
 import styles from "./intro.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+import CarbonArrowUpRight from "../CarbonArrowUpRight";
 
 export default function Intro() {
   return (
     <div className={styles.main}>
+      <Background />
       <div className={styles.hero}>
         <span>Festival Seni Cetak Grafis: Trilogia</span>
         <div className={styles.title}>
@@ -26,7 +30,10 @@ export default function Intro() {
           perlakuan yang membuat garis tidak lagi menjadi bagian penting.
         </p>
         <div className={styles.continue}>
-          <Link href="pengantar">Lanjutkan membaca</Link>
+          <button type="button">
+            <Link href="pengantar">Baca Selanjutnya</Link>
+            <CarbonArrowUpRight id="img" />
+          </button>
         </div>
       </div>
     </div>

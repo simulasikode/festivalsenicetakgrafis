@@ -3,11 +3,13 @@ $medium: 768px;
 
 .main {
   position: relative;
-  overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
+  margin-bottom: 96px;
+
   .hero {
     padding: 6px 48px;
     padding-top: 140px;
+
     span {
       font-size: 28px;
       font-weight: 700;
@@ -20,15 +22,25 @@ $medium: 768px;
     }
   }
 }
+
 .paragraf {
   padding: 6px 48px;
   font-size: 18px;
   max-width: 762px;
 }
 .continue {
-  padding: 24px 0px;
-  font-weight: 600;
-  :hover {
-    color: gray;
+  padding-top: 32px;
+
+  button {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    background: #cd2c3d;
+    color: #f9f9f9;
+    padding: 8px 16px;
+    :hover {
+      color: #e67c89;
+    }
   }
 }

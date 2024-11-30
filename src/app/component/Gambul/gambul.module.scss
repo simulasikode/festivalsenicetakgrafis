@@ -1,10 +1,57 @@
-.gambul {
+.container {
   position: relative;
-  padding: 32px;
-  h1 {
-    font-size: 32px;
-    font-family: basteleur;
-    color: #cd2c3d;
-    margin-bottom: 40px;
+  background-color: #f4f4f4;
+  padding-bottom: 98px;
+  .title {
+    padding: 48px;
+
+    h1 {
+      font-family: basteleur;
+      :hover {
+        color: #cd2c3d;
+      }
+    }
+    span {
+      font-size: 24px;
+    }
+  }
+  .order {
+    display: flex;
+    align-items: center;
+    gap: 4px 8px;
+    padding: 16px 48px;
+    font-size: 20px;
+    font-weight: 600;
+    :hover {
+      color: #cd2c3d;
+    }
+    img {
+      margin-top: 4px;
+    }
+  }
+}
+.gambul {
+  display: grid;
+  padding: 0px 48px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  pointer-events: none;
+  touch-action: none;
+  .seniman {
+    grid-column: 1 / span 2;
+  }
+  .kurator {
+    grid-column: 3 / span 2;
+  }
+  .pekerja {
+    grid-column: 5 / span 2;
+  }
+  .manager {
+    grid-column: 7 / span 2;
+  }
+  .galeri {
+    grid-column: 9 / span 2;
+  }
+  .kolektif {
+    grid-column: end;
   }
 }

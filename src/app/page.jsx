@@ -5,6 +5,7 @@ import styles from "./page.module.scss";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Tim from "./component/tim";
+import Gambul from "./component/Gambul";
 
 export default function Home() {
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function Home() {
       </div>
       <Festival />
       <Tim />
+      <Gambul />
     </div>
   );
 }
