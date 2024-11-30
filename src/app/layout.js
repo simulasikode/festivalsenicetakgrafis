@@ -1,8 +1,10 @@
-import Footer from "./component/Footer/Index";
-import Nav from "./component/Nav";
-import SmoothScrolling from "./component/SmoothScrolling";
-import Top from "./component/top";
 import "./globals.css";
+import Top from "./component/top";
+import Nav from "./component/Nav";
+import Footer from "./component/Footer/Index";
+import SmoothScrolling from "./component/SmoothScrolling";
+import GoogleAnalytics from "./component/GoogleAnalytics";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { IBM_Plex_Sans } from "next/font/google";
 
 const ibm = IBM_Plex_Sans({
@@ -13,13 +15,15 @@ const ibm = IBM_Plex_Sans({
 
 export const metadata = {
   title: "Festival Seni Cetak Grafis",
-  description: "orgenize by Krack! Studio",
+  description: "Festival seni cetak grafis:Trilogia orgenize by Krack! Studio",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ibm.className}>
+      <GoogleAnalytics />
       <body>
+        <GoogleTagManager gtmId="GTM-N264BVRG" />
         <Top />
         <SmoothScrolling>
           <Nav />
