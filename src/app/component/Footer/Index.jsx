@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from "./footer.module.scss";
 import Image from "next/image";
+import CarbonLogoInstagram from "../CarbonLogoInstagram";
 
 export default function Footer() {
   return (
@@ -13,13 +14,9 @@ export default function Footer() {
               href="https://instagram.com/festivalsenicetakgrafis"
               target="_blank"
             >
-              <Image
-                src={"Instagram.svg"}
-                alt="instagram"
-                width={32}
-                height={32}
-              />
+              <CarbonLogoInstagram width={32} height={32} />
             </Link>
+            <br />
             <br />
             <p>© 2024. Krack! studio</p>
           </div>

@@ -1,3 +1,4 @@
+"use client";
 import styles from "./program.module.scss";
 import Link from "next/link";
 
@@ -27,7 +28,7 @@ export default function ProgramPage() {
           </Link>
         </div>
         <div className={styles.date}>
-          <span>Universitas Sanata Darma, Yogyakarta</span>
+          <span>Universitas Sanata Dharma, Yogyakarta</span>
         </div>
       </div>
       <span className={styles.border}></span>

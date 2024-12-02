@@ -19,12 +19,17 @@ export default function PameranPage() {
       <span className={styles.border}></span>
 
       <div className={styles.list}>
-        <h2>Ada dan Berlipat Ganda</h2>
+        <Link href="/ada-dan-berlipat-ganda">
+          <h2>Ada dan Berlipat Ganda</h2>
+        </Link>
         <p>Lantai 1</p>
       </div>
       <span className={styles.border}></span>
       <div className={styles.list}>
-        <h2>Cetak Grafis Kontemporer: Wajah, Praktik dan Arena</h2>
+        <h2>
+          Artist Proof
+          <p> Wajah, Praktik, dan Arena Seni Cetak Grafis Kontemporer</p>
+        </h2>
         <p>Lantai 2</p>
       </div>
       <span className={styles.border}></span>

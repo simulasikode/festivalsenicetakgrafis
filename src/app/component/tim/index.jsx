@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./tim.module.scss";
 import Link from "next/link";
+import CarbonArrowUpRight from "../CarbonArrowUpRight";
 
 export default function Tim() {
   return (
@@ -32,7 +33,7 @@ export default function Tim() {
           <Link href="/tim">
             <span>Lihat keseluruhan tim festival</span>
           </Link>
-          <Image src="LightArrow.svg" alt="Next" width={32} height={32} />
+          <CarbonArrowUpRight />
         </div>
       </div>
     </div>
