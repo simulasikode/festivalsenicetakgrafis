@@ -27,6 +27,10 @@
   .grid {
     padding-bottom: 32px;
     grid-column: 1 / span 6;
+    :hover {
+      color: #cd2c3d;
+    }
+
     h2 {
       font-size: 32px;
       font-weight: 600;

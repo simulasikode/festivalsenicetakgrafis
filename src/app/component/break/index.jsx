@@ -1,8 +1,8 @@
 import Image from "next/image";
-import hero from "../../../../public/home_hero.webp";
-import styles from "./hero.module.scss";
+import hero from "../../../../public/break.webp";
+import styles from "./break.module.scss";
 
-export default function Background() {
+export default function Break() {
   return (
     <Image
       alt="Key Visual"
@@ -14,7 +14,7 @@ export default function Background() {
         width: "100%",
         height: "auto",
       }}
-      className={styles.hero}
+      className={styles.break}
     />
   );
 }

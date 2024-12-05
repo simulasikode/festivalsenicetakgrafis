@@ -23,7 +23,7 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Krisnawan Wisnu Adi, <p>Hardiwan Prayogo</p>
+          Krisnawan Wisnu Adi <p>Hardiwan Prayogo</p>
         </h3>
         <p>Tim Editorial Teks</p>
       </div>
@@ -35,7 +35,7 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Rudi Hermawan, <p>Alfin Agnuba</p>
+          Rudi Hermawan <p>Alfin Agnuba</p>
         </h3>
         <p>Tim Artistik</p>
       </div>
@@ -47,16 +47,16 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Aditya Hibah, <p>Faiq al Fahmi</p>
+          Aditya Hibah <p>Faiq al Fahmi</p>
         </h3>
         <p>Staf Produksi</p>
       </div>
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Ardian Satria Natalino, <p>Anoel Radity,</p>{" "}
-          <p>Bondan Nur Akhsani,</p> <p>Daffa Saifullah,</p>{" "}
-          <p>Farid Akmal Maulana</p>{" "}
+          Ardian Satria Natalino <p>Anoel Radity</p>
+          <p>Bondan Nur Akhsani</p> <p>Daffa Saifullah</p>
+          <p>Farid Akmal Maulana</p>
         </h3>
         <p>Tim Desain dan Pengolah Data</p>
       </div>
@@ -73,14 +73,14 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Alfin Agnuba, <p>Khoiril Maqin,</p> <p> Putri Okta</p>
+          Alfin Agnuba <p>Khoiril Maqin</p> <p> Putri Okta</p>
         </h3>
         <p>Koordinator Program Kolaborasi (SkolMus)</p>
       </div>
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Prihatmoko Moki,<p>Putri Okta</p>
+          Prihatmoko Moki<p>Putri Okta</p>
         </h3>
         <p>Koordinator Program Kolaborasi (Sanggar Lumbung Kawruh)</p>
       </div>
@@ -92,14 +92,14 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Febrian Adinata Hasibuan, <p>Sita Magfira</p>
+          Febrian Adinata Hasibuan <p>Sita Magfira</p>
         </h3>
         <p>Ko-kurator Pameran Lantai 1</p>
       </div>
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          YD Britto Wirajati, <p>Ace House Collective</p>
+          YD Britto Wirajati <p>Ace House Collective</p>
         </h3>
         <p>Ko-kurator Pameran Lantai 2</p>
       </div>
@@ -112,7 +112,7 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          <p>Eva Maulidia Bahesti,</p> <p>Laksamana Al Hafiz,</p>
+          <p>Eva Maulidia Bahesti</p> <p>Laksamana Al Hafiz</p>
           <p>Sultan Bil Qisthi</p>
         </h3>
         <p>Staf Pengelola Data</p>
@@ -135,7 +135,7 @@ export default function TimPage() {
       <span className={styles.border}></span>
       <div className={styles.list}>
         <h3>
-          Prihatmoko Moki,<p>M. Fahriza Ansyari,</p> <p>Beni</p>
+          Prihatmoko Moki<p>M. Fahriza Ansyari</p> <p>Beni</p>
         </h3>
         <p>Desainer</p>
       </div>

@@ -4,6 +4,15 @@ import remarkGfm from "remark-gfm";
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/pameran",
+        destination: "https://festivalsenicetakgrafis.id/pameran",
+      },
+    ];
+  },
+
   sassOptions: {
     silenceDeprecations: ["legacy-js-api"],
   },

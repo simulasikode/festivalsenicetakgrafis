@@ -1,9 +1,26 @@
 .simposium {
-  height: 100vh;
   padding: 0px 48px;
   margin-top: 180px;
-  .title {
+}
+.title {
+  h1 {
     font-size: 48px;
     font-family: basteleur;
+    color: #c33840;
+  }
+}
+.text {
+  padding-top: 32px;
+  max-width: 60%;
+}
+.warp {
+  padding-top: 32px;
+  padding-bottom: 90px;
+  .sub {
+    margin-top: 32px;
+    max-width: 60%;
+    p {
+      padding-top: 8px;
+    }
   }
 }

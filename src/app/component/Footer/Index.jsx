@@ -3,10 +3,12 @@ import Link from "next/link";
 import styles from "./footer.module.scss";
 import Image from "next/image";
 import CarbonLogoInstagram from "../CarbonLogoInstagram";
+import Break from "../break";
 
 export default function Footer() {
   return (
     <div className={styles.footer}>
+      <Break />
       <div className={styles.container}>
         <div className={styles.credit}>
           <div className={styles.social}>
@@ -18,7 +20,7 @@ export default function Footer() {
             </Link>
             <br />
             <br />
-            <p>© 2024. Krack! studio</p>
+            <p>© All rights reserved 2024. Krack! studio</p>
           </div>
           <div className={styles.organize}>
             <p>Organize by</p>

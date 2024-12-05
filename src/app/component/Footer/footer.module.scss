@@ -1,14 +1,11 @@
-$small: 320px;
-$medium: 768px;
-
 .footer {
-  bottom: 0;
-  overflow: hidden;
   color: white;
-  background-color: #292929;
+  width: 100%;
+  min-width: 100%;
   .container {
-    padding: 0 48px;
-    margin-bottom: 32px;
+    padding: 48px;
+    width: 100vw;
+    background-color: #c33840;
     .credit {
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -37,8 +34,7 @@ $medium: 768px;
 }
 
 .register {
-  position: relative;
-  padding: 2px;
   display: flex;
   justify-content: space-between;
+  background-color: #c33840;
 }
