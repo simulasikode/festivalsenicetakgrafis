@@ -10,6 +10,10 @@ export default function Footer() {
     <div className={styles.footer}>
       <Break />
       <div className={styles.container}>
+        <div className={styles.list}>
+          <Link href="/code-of-conduct">Code of Conduct</Link>
+          <br />
+        </div>
         <div className={styles.credit}>
           <div className={styles.social}>
             <Link

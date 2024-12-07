@@ -6,6 +6,9 @@
     padding: 48px;
     width: 100vw;
     background-color: #c33840;
+    .list {
+      padding: 32px 0px;
+    }
     .credit {
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
