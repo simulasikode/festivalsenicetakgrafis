@@ -4,10 +4,10 @@ $medium: 768px;
 .main {
   position: relative;
   min-height: 100vh;
-  margin-bottom: 96px;
+  margin-bottom: 104px;
 
   .hero {
-    padding: 6px 48px;
+    padding: 6px 104px;
     padding-top: 140px;
 
     span {
@@ -16,7 +16,7 @@ $medium: 768px;
     }
     .title {
       margin-top: 8px;
-      font-size: 48px;
+      font-size: 104px;
       font-family: basteleur;
       color: #cd2c3d;
     }
@@ -24,7 +24,7 @@ $medium: 768px;
 }
 
 .paragraf {
-  padding: 6px 48px;
+  padding: 6px 104px;
   font-size: 18px;
   max-width: 762px;
 }
